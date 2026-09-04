@@ -5,6 +5,7 @@
  * and public/components/sn-social-bookmarks.js
  */
 
+import 'public/image-map.js';
 import { local } from 'wix-storage';
 // [LOCAL-ONLY-ISSUE]: wix-storage is not available in plain browser / Custom Element-only preview
 // [RESOLVES-ON-WIX]: Wix provides session/local storage bindings in the Velo page runtime after publish

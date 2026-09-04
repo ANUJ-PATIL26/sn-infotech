@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 52" role="img" aria-label="Ops Ready">
+  <defs>
+    <linearGradient id="placeholders-badge-iso-ready-svg-b" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#151C24"/>
+      <stop offset="100%" stop-color="#1C2630"/>
+    </linearGradient>
+  </defs>
+  <rect width="180" height="52" rx="26" fill="url(#placeholders-badge-iso-ready-svg-b)" stroke="#E84A3F" stroke-opacity="0.45"/>
+  <circle cx="26" cy="26" r="9" fill="#E84A3F"/>
+  <path d="M22 26l2.8 2.8 5.4-6" fill="none" stroke="#0B1016" stroke-width="2" stroke-linecap="round"/>
+  <text x="44" y="22" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#E8EEF5">Ops Ready</text>
+  <text x="44" y="38" font-family="IBM Plex Sans, Inter, Arial, sans-serif" font-size="10" font-weight="600" fill="#E84A3F">Delivery standard</text>
+</svg>
