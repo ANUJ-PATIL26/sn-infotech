@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Cloud ops notes">
+  <defs>
+    <linearGradient id="placeholders-blog-thumb-1-svg-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1016"/>
+      <stop offset="100%" stop-color="#163049"/>
+    </linearGradient>
+    <linearGradient id="placeholders-blog-thumb-1-svg-a" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f06543"/>
+      <stop offset="100%" stop-color="#148F9A"/>
+    </linearGradient>
+    <filter id="placeholders-blog-thumb-1-svg-s" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="800" height="500" fill="url(#placeholders-blog-thumb-1-svg-bg)"/>
+  <circle cx="660" cy="110" r="150" fill="#f06543" opacity="0.1"/>
+  <circle cx="120" cy="400" r="120" fill="#148F9A" opacity="0.08"/>
+  <g filter="url(#placeholders-blog-thumb-1-svg-s)">
+    <rect x="64" y="72" width="320" height="220" rx="22" fill="#121820" stroke="#f06543" stroke-opacity="0.4"/>
+    <rect x="96" y="112" width="140" height="12" rx="6" fill="url(#placeholders-blog-thumb-1-svg-a)"/>
+    <rect x="96" y="144" width="220" height="10" rx="5" fill="#2A3440"/>
+    <rect x="96" y="170" width="180" height="10" rx="5" fill="#24303C"/>
+    <rect x="96" y="210" width="200" height="40" rx="12" fill="rgba(240,101,67,0.16)" stroke="#f06543" stroke-opacity="0.35"/>
+    <path d="M430 280 C500 200, 560 250, 640 170 S740 120, 760 90" fill="none" stroke="url(#placeholders-blog-thumb-1-svg-a)" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="500" cy="220" r="8" fill="#f06543"/><circle cx="640" cy="170" r="8" fill="#f06543"/><circle cx="760" cy="90" r="8" fill="#f06543"/>
+  </g>
+  <text x="64" y="440" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="28" font-weight="700" fill="#E8EEF5">Cloud ops notes</text>
+  <text x="64" y="470" font-family="IBM Plex Sans, Inter, Arial, sans-serif" font-size="14" fill="#9AA8B8">Insights from the SN Infotech team</text>
+</svg>

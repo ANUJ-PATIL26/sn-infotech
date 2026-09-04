@@ -1,10 +1,14 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+/**
+ * Salesforce — /cloud-consulting/salesforce
+ * SEO: src/seo/pages.json → salesforce
+ */
 
 $w.onReady(function () {
-    // Write your JavaScript here
-
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+  if ($w('#pageTitle')) {
+    $w('#pageTitle').text = 'Salesforce consulting';
+  }
+  if ($w('#pageBody')) {
+    $w('#pageBody').text =
+      'Advisory and support for Salesforce as part of a broader cloud consulting practice.';
+  }
 });

@@ -8,6 +8,8 @@
   "scripts": {
     "postinstall": "wix sync-types",
     "dev": "wix dev",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "publish": "node ./scripts/publish.js",
+    "wix": "wix"
   }
 }

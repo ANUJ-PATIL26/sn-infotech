@@ -1,10 +1,16 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+/**
+ * DevOps Services — /devops-services
+ * Embed <sn-devops-page> (and optionally <sn-cta-banner>) on this page in the Editor.
+ * Local preview: src/pages/_devops-preview.html
+ * SEO: src/seo/pages.json → devops-services
+ */
 
 $w.onReady(function () {
-    // Write your JavaScript here
-
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+  if ($w('#pageTitle')) {
+    $w('#pageTitle').text = 'DevOps Services';
+  }
+  if ($w('#pageBody')) {
+    $w('#pageBody').text =
+      'SN InfoTech carves your path towards modern IT with platform-centric architecture. Our DevOps Automation Specialists manage cloud-native and traditional workloads while ensuring seamless application development and delivery — with release time cut from hours to minutes and at least 25% reduction in time.';
+  }
 });

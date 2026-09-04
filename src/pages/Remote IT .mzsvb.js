@@ -1,10 +1,14 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+/**
+ * Remote IT — /cloud-consulting/remote-it
+ * SEO: src/seo/pages.json → remote-it
+ */
 
 $w.onReady(function () {
-    // Write your JavaScript here
-
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+  if ($w('#pageTitle')) {
+    $w('#pageTitle').text = 'Remote IT';
+  }
+  if ($w('#pageBody')) {
+    $w('#pageBody').text =
+      'Extend your internal capability with remote specialists who already know modern cloud stacks.';
+  }
 });

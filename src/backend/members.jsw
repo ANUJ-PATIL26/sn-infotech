@@ -1,0 +1,21 @@
+/**
+ * Optional Members / Auth helper.
+ * Enable Wix Members in the Editor if you need gated content later.
+ */
+
+import { currentMember } from 'wix-members-backend';
+// [LOCAL-ONLY-ISSUE]: wix-members-backend / auth bindings are unavailable without Wix Members on a live site
+// [RESOLVES-ON-WIX]: Wix Members runtime provides currentMember after the Members app is installed and published
+
+/**
+ * Returns the logged-in member or null.
+ */
+export async function getCurrentMemberSafe() {
+  try {
+    // [LOCAL-ONLY-ISSUE]: currentMember() fails or returns empty outside authenticated Wix runtime
+    // [RESOLVES-ON-WIX]: Resolves against the site's Members database once deployed
+    return await currentMember.getMember();
+  } catch (e) {
+    return null;
+  }
+}

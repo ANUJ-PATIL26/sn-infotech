@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" role="img" aria-label="Cloud, DevOps and managed IT platform">
+  <defs>
+    <linearGradient id="hv-accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E84A3F"/>
+      <stop offset="100%" stop-color="#F09D51"/>
+    </linearGradient>
+    <linearGradient id="hv-panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F3F5F7"/>
+    </linearGradient>
+    <filter id="hv-shadow" x="-12%" y="-10%" width="124%" height="130%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#1C2124" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <circle cx="420" cy="70" r="56" fill="#E84A3F" fill-opacity="0.14"/>
+  <circle cx="70" cy="340" r="48" fill="#3B7DDD" fill-opacity="0.12"/>
+  <circle cx="460" cy="300" r="40" fill="#2F9E6B" fill-opacity="0.12"/>
+  <g filter="url(#hv-shadow)">
+    <rect x="36" y="36" width="360" height="318" rx="18" fill="url(#hv-panel)" stroke="#1C2124" stroke-opacity="0.08"/>
+    <circle cx="62" cy="62" r="5" fill="#E84A3F"/>
+    <circle cx="80" cy="62" r="5" fill="#E0A41A"/>
+    <circle cx="98" cy="62" r="5" fill="#2F9E6B"/>
+    <rect x="120" y="56" width="140" height="12" rx="6" fill="#1C2124" fill-opacity="0.1"/>
+    <text x="270" y="66" fill="#1C2124" fill-opacity="0.45" font-family="IBM Plex Sans, Inter, Arial, sans-serif" font-size="11" font-weight="600">sn · deploy</text>
+    <rect x="56" y="88" width="320" height="58" rx="12" fill="#1C2124" fill-opacity="0.05"/>
+    <text x="72" y="112" fill="#1C2124" fill-opacity="0.5" font-family="IBM Plex Sans, Inter, Arial, sans-serif" font-size="12">dev →</text>
+    <text x="108" y="112" fill="#1C2124" font-family="IBM Plex Sans, Inter, Arial, sans-serif" font-size="13" font-weight="600">"Spin up staging for checkout."</text>
+    <text x="72" y="132" fill="#E84A3F" font-family="IBM Plex Sans, Inter, Arial, sans-serif" font-size="11" font-weight="700">AWS · Terraform · Kubernetes</text>
+    <circle cx="72" cy="178" r="9" fill="#2F9E6B"/>
+    <path d="M68 178l2.5 2.5 5.5-6" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+    <text x="92" y="183" fill="#1C2124" fill-opacity="0.82" font-family="IBM Plex Sans, Inter, Arial, sans-serif" font-size="13">Scanning repo &amp; matching modules</text>
+    <circle cx="72" cy="214" r="9" fill="#2F9E6B"/>
+    <path d="M68 214l2.5 2.5 5.5-6" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+    <text x="92" y="219" fill="#1C2124" fill-opacity="0.82" font-family="IBM Plex Sans, Inter, Arial, sans-serif" font-size="13">Validating against security policy</text>
+    <circle cx="72" cy="250" r="9" fill="#2F9E6B"/>
+    <path d="M68 250l2.5 2.5 5.5-6" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+    <text x="92" y="255" fill="#1C2124" fill-opacity="0.82" font-family="IBM Plex Sans, Inter, Arial, sans-serif" font-size="13">Provisioning cloud resources</text>
+    <circle cx="72" cy="286" r="9" fill="#3B7DDD"/>
+    <circle cx="72" cy="286" r="3.5" fill="#fff"/>
+    <text x="92" y="291" fill="#1C2124" fill-opacity="0.82" font-family="IBM Plex Sans, Inter, Arial, sans-serif" font-size="13">Wiring identity &amp; secrets…</text>
+    <rect x="56" y="312" width="320" height="26" rx="8" fill="url(#hv-accent)"/>
+    <text x="72" y="330" fill="#FFFFFF" font-family="IBM Plex Sans, Inter, Arial, sans-serif" font-size="12" font-weight="700">Live · staging-checkout.example.com</text>
+    <text x="318" y="330" fill="#FFFFFF" fill-opacity="0.9" font-family="IBM Plex Sans, Inter, Arial, sans-serif" font-size="12" font-weight="600">3m 12s</text>
+  </g>
+  <g filter="url(#hv-shadow)">
+    <rect x="330" y="54" width="152" height="72" rx="14" fill="url(#hv-panel)" stroke="#E84A3F" stroke-opacity="0.28"/>
+    <text x="348" y="82" fill="#E84A3F" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="22" font-weight="700">10x</text>
+    <text x="348" y="104" fill="#1C2124" fill-opacity="0.65" font-family="IBM Plex Sans, Inter, Arial, sans-serif" font-size="12">faster to production</text>
+  </g>
+  <g filter="url(#hv-shadow)">
+    <rect x="348" y="150" width="152" height="72" rx="14" fill="url(#hv-panel)" stroke="#3B7DDD" stroke-opacity="0.3"/>
+    <text x="366" y="178" fill="#3B7DDD" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="22" font-weight="700">100%</text>
+    <text x="366" y="200" fill="#1C2124" fill-opacity="0.65" font-family="IBM Plex Sans, Inter, Arial, sans-serif" font-size="12">policy-compliant</text>
+  </g>
+  <g filter="url(#hv-shadow)">
+    <rect x="318" y="248" width="168" height="72" rx="14" fill="url(#hv-panel)" stroke="#2F9E6B" stroke-opacity="0.3"/>
+    <text x="336" y="276" fill="#2F9E6B" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="20" font-weight="700">Cloud · K8s</text>
+    <text x="336" y="298" fill="#1C2124" fill-opacity="0.65" font-family="IBM Plex Sans, Inter, Arial, sans-serif" font-size="12">secure by design</text>
+  </g>
+  <text x="36" y="392" fill="#E84A3F" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="13" font-weight="700">Build · Secure · Innovate</text>
+</svg>

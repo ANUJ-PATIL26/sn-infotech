@@ -1,10 +1,13 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+/**
+ * Blog — /blog
+ * Preview: _blog-preview.html (sn-more-page slug="blog")
+ * Posts and images come from public/more-pages.js (exact copy from sninfotech.co.uk/blog).
+ * Individual posts: <sn-more-page slug="blog/{post-slug}">
+ * SEO: src/seo/pages.json → blog
+ */
 
 $w.onReady(function () {
-    // Write your JavaScript here
-
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+  if ($w('#pageTitle')) {
+    $w('#pageTitle').text = 'All Posts';
+  }
 });

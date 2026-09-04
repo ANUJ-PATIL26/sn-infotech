@@ -1,10 +1,14 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+/**
+ * IT Recruitment — /it-recruitment
+ * SEO: src/seo/pages.json → it-recruitment
+ */
 
 $w.onReady(function () {
-    // Write your JavaScript here
-
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+  if ($w('#pageTitle')) {
+    $w('#pageTitle').text = 'IT recruitment for cloud and engineering roles';
+  }
+  if ($w('#pageBody')) {
+    $w('#pageBody').text =
+      'Technology moves quickly — and every organisation’s worth is measured by its people. SN Infotech helps you hire specialists across cloud, DevOps and engineering so you stay ahead of the competition.';
+  }
 });

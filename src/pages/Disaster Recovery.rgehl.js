@@ -1,10 +1,14 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+/**
+ * Disaster Recovery — /cloud-computing/disaster-recovery
+ * SEO: src/seo/pages.json → disaster-recovery
+ */
 
 $w.onReady(function () {
-    // Write your JavaScript here
-
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+  if ($w('#pageTitle')) {
+    $w('#pageTitle').text = 'Disaster recovery';
+  }
+  if ($w('#pageBody')) {
+    $w('#pageBody').text =
+      'Design and test recovery paths so critical systems can return quickly when something fails.';
+  }
 });

@@ -1,0 +1,57 @@
+/**
+ * Web module: lead helpers for consultation / callback requests.
+ * Prefer Wix Forms + Wix Automations for email routing when possible (see README).
+ */
+
+import { fetch } from 'wix-fetch';
+// [LOCAL-ONLY-ISSUE]: wix-fetch import only resolves inside the Wix backend runtime
+// [RESOLVES-ON-WIX]: Available after site is connected and code is published
+
+import wixData from 'wix-data';
+// [LOCAL-ONLY-ISSUE]: wix-data collections return empty / fail without CMS collections on a live site
+// [RESOLVES-ON-WIX]: Create a "Leads" collection in Wix CMS; inserts work after publish
+
+/**
+ * Persist a consultation lead. Called from page code after Custom Element submit.
+ * @param {{ name: string, email: string, phone: string, interest?: string, message?: string }} lead
+ */
+export async function saveConsultationLead(lead) {
+  // [LOCAL-ONLY-ISSUE]: Writing to Wix Data "Leads" collection fails / returns empty locally without CMS
+  // [RESOLVES-ON-WIX]: Collection bindings and permissions apply in the Wix Data runtime
+  const item = {
+    title: lead.name,
+    email: lead.email,
+    phone: lead.phone,
+    interest: lead.interest || '',
+    message: lead.message || '',
+    source: 'consultation-modal',
+    createdAt: new Date().toISOString(),
+  };
+
+  return wixData.insert('Leads', item);
+}
+
+/**
+ * Optional webhook notifier (Zapier / Make / custom inbox). Prefer Wix Automations instead.
+ */
+export async function notifyLeadWebhook(lead) {
+  // [LOCAL-ONLY-ISSUE]: Secrets / env for webhook URL are not available in plain local preview
+  // [RESOLVES-ON-WIX]: Configure LEAD_WEBHOOK_URL in Secrets Manager if you need a custom webhook
+  // NOTE: For most sites, replace this with a Wix Automation on form submit → send email.
+  try {
+    const { getSecret } = await import('wix-secrets-backend');
+    // [LOCAL-ONLY-ISSUE]: wix-secrets-backend getSecret fails without live Secrets Manager
+    // [RESOLVES-ON-WIX]: Secret is injected at runtime on Wix
+    const url = await getSecret('LEAD_WEBHOOK_URL');
+    if (!url) return { skipped: true };
+
+    await fetch(url, {
+      method: 'post',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(lead),
+    });
+    return { ok: true };
+  } catch (e) {
+    return { ok: false, error: e?.message || String(e) };
+  }
+}

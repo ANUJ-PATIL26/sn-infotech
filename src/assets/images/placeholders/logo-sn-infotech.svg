@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 48" role="img" aria-label="SN Infotech">
+  <rect x="0" y="4" width="40" height="40" rx="12" fill="#E84A3F"/>
+  <text x="20" y="31" text-anchor="middle" fill="#fff" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="16" font-weight="700">SN</text>
+  <text x="52" y="31" fill="#E8EEF5" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="20" font-weight="700">Infotech</text>
+</svg>

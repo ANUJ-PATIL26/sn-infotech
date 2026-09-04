@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Cloud and DevOps network visualization">
+  <defs>
+    <linearGradient id="ho-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070B14"/>
+      <stop offset="100%" stop-color="#122033"/>
+    </linearGradient>
+    <radialGradient id="ho-g" cx="70%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#E84A3F" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#E84A3F" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#ho-bg)"/>
+  <rect width="1600" height="900" fill="url(#ho-g)"/>
+  <circle cx="120" cy="140" r="8" fill="#E84A3F" opacity="0.35"/><circle cx="360" cy="140" r="8" fill="#E84A3F" opacity="0.5"/><circle cx="600" cy="140" r="8" fill="#E84A3F" opacity="0.6499999999999999"/><circle cx="840" cy="140" r="8" fill="#E84A3F" opacity="0.35"/><circle cx="1080" cy="140" r="8" fill="#E84A3F" opacity="0.5"/><circle cx="1320" cy="140" r="8" fill="#E84A3F" opacity="0.6499999999999999"/><circle cx="120" cy="360" r="8" fill="#E84A3F" opacity="0.35"/><circle cx="360" cy="360" r="8" fill="#E84A3F" opacity="0.5"/><circle cx="600" cy="360" r="8" fill="#E84A3F" opacity="0.6499999999999999"/><circle cx="840" cy="360" r="8" fill="#E84A3F" opacity="0.35"/><circle cx="1080" cy="360" r="8" fill="#E84A3F" opacity="0.5"/><circle cx="1320" cy="360" r="8" fill="#E84A3F" opacity="0.6499999999999999"/><circle cx="120" cy="580" r="8" fill="#E84A3F" opacity="0.35"/><circle cx="360" cy="580" r="8" fill="#E84A3F" opacity="0.5"/><circle cx="600" cy="580" r="8" fill="#E84A3F" opacity="0.6499999999999999"/><circle cx="840" cy="580" r="8" fill="#E84A3F" opacity="0.35"/><circle cx="1080" cy="580" r="8" fill="#E84A3F" opacity="0.5"/><circle cx="1320" cy="580" r="8" fill="#E84A3F" opacity="0.6499999999999999"/>
+  <path d="M120 140 C360 180, 480 120, 600 200 S960 280, 1080 220 S1320 300, 1480 260" fill="none" stroke="#E84A3F" stroke-opacity="0.35" stroke-width="3"/>
+  <path d="M200 360 C420 300, 640 420, 860 340 S1200 420, 1400 380" fill="none" stroke="#3B7DDD" stroke-opacity="0.3" stroke-width="3"/>
+  <path d="M160 580 C400 520, 700 640, 980 560 S1300 620, 1500 540" fill="none" stroke="#2F9E6B" stroke-opacity="0.28" stroke-width="3"/>
+  <rect x="520" y="340" width="560" height="220" rx="28" fill="#121820" fill-opacity="0.92" stroke="#E84A3F" stroke-opacity="0.35"/>
+  <text x="800" y="430" text-anchor="middle" fill="#E8EEF5" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="42" font-weight="700">SN Infotech</text>
+  <text x="800" y="480" text-anchor="middle" fill="#9AA8B8" font-family="IBM Plex Sans, Inter, Arial, sans-serif" font-size="20">Cloud · DevOps · Managed IT</text>
+</svg>

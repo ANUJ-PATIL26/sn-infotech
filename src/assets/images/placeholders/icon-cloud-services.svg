@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="cloud services">
+  <defs>
+    <linearGradient id="placeholders-icon-cloud-services-svg-i" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#151C24"/>
+      <stop offset="100%" stop-color="#1C2630"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="28" fill="url(#placeholders-icon-cloud-services-svg-i)" stroke="#E84A3F" stroke-opacity="0.35"/>
+  <circle cx="60" cy="52" r="26" fill="rgba(232,74,63,0.14)" stroke="#E84A3F" stroke-width="2.5"/>
+  <path d="M40 58h40c10 0 18-7 18-16s-8-16-18-16c-2-10-12-18-22-18s-20 8-22 18c-8 1-14 8-14 16 0 9 8 16 18 16z" fill="none" stroke="#E84A3F" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="30" y="90" width="60" height="8" rx="4" fill="rgba(232,74,63,0.45)"/>
+</svg>

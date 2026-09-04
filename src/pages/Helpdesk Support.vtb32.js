@@ -1,10 +1,14 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+/**
+ * Helpdesk Support — /cloud-consulting/helpdesk-support
+ * SEO: src/seo/pages.json → helpdesk-support
+ */
 
 $w.onReady(function () {
-    // Write your JavaScript here
-
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+  if ($w('#pageTitle')) {
+    $w('#pageTitle').text = 'Helpdesk support';
+  }
+  if ($w('#pageBody')) {
+    $w('#pageBody').text =
+      'End-user helpdesk coverage that keeps people productive while your staff focus on priorities.';
+  }
 });

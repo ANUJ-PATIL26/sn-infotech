@@ -1,10 +1,14 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+/**
+ * Website Design — /website-design
+ * SEO: src/seo/pages.json → website-design
+ */
 
 $w.onReady(function () {
-    // Write your JavaScript here
-
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+  if ($w('#pageTitle')) {
+    $w('#pageTitle').text = 'Website design for growing businesses';
+  }
+  if ($w('#pageBody')) {
+    $w('#pageBody').text =
+      'We design and deliver modern, conversion-focused websites that reflect how your organisation works — clear messaging, strong performance, and a structure ready for ongoing content and campaigns.';
+  }
 });

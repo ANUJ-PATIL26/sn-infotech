@@ -1,10 +1,14 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+/**
+ * Server Maintenance — /cloud-computing/server-maintenance
+ * SEO: src/seo/pages.json → server-maintenance
+ */
 
 $w.onReady(function () {
-    // Write your JavaScript here
-
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+  if ($w('#pageTitle')) {
+    $w('#pageTitle').text = 'Server maintenance';
+  }
+  if ($w('#pageBody')) {
+    $w('#pageBody').text =
+      'Proactive patching, hardening and care for the servers that keep your business online.';
+  }
 });

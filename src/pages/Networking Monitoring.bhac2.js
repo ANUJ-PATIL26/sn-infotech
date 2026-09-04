@@ -1,10 +1,14 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+/**
+ * Networking Monitoring — /cloud-computing/networking-monitoring
+ * SEO: src/seo/pages.json → networking-monitoring
+ */
 
 $w.onReady(function () {
-    // Write your JavaScript here
-
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+  if ($w('#pageTitle')) {
+    $w('#pageTitle').text = 'Networking monitoring';
+  }
+  if ($w('#pageBody')) {
+    $w('#pageBody').text =
+      'Continuous visibility and alerting so network issues are found before users feel them.';
+  }
 });

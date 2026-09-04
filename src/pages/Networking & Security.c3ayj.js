@@ -1,10 +1,14 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+/**
+ * Networking & Security — /cloud-computing/networking-security
+ * SEO: src/seo/pages.json → networking-security
+ */
 
 $w.onReady(function () {
-    // Write your JavaScript here
-
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+  if ($w('#pageTitle')) {
+    $w('#pageTitle').text = 'Networking & security';
+  }
+  if ($w('#pageBody')) {
+    $w('#pageBody').text =
+      'Secure connectivity across hybrid estates — segmentation, access control and resilient network design.';
+  }
 });

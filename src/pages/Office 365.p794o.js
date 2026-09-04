@@ -1,10 +1,14 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+/**
+ * Office 365 — /cloud-computing/office-365
+ * SEO: src/seo/pages.json → office-365
+ */
 
 $w.onReady(function () {
-    // Write your JavaScript here
-
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+  if ($w('#pageTitle')) {
+    $w('#pageTitle').text = 'Office 365 / Microsoft 365';
+  }
+  if ($w('#pageBody')) {
+    $w('#pageBody').text =
+      'Migration, configuration and ongoing administration for Microsoft 365 productivity suites.';
+  }
 });

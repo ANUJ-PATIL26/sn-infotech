@@ -1,10 +1,16 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+/**
+ * Kubernetes Services — /kubernetes-services
+ * Embed <sn-kubernetes-page> (and optionally <sn-cta-banner>) on this page in the Editor.
+ * Local preview: src/pages/_kubernetes-preview.html
+ * SEO: src/seo/pages.json → kubernetes-services
+ */
 
 $w.onReady(function () {
-    // Write your JavaScript here
-
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+  if ($w('#pageTitle')) {
+    $w('#pageTitle').text = 'Kubernetes Services';
+  }
+  if ($w('#pageBody')) {
+    $w('#pageBody').text =
+      'Managed Kubernetes brings fully automated cluster setup with maximum transparency and control — security fixes, versioning, high availability, persistent storage and full admin API access across hybrid environments.';
+  }
 });

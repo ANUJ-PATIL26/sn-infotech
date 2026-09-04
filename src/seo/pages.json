@@ -1,0 +1,169 @@
+{
+  "home": {
+    "path": "/",
+    "title": "SN Infotech Ltd | DevOps, Cloud & Managed IT Consultancy",
+    "description": "London-based DevOps, cloud and managed IT consultancy. 25 years’ experience helping UK organisations migrate, automate and run reliable platforms.",
+    "ogTitle": "SN Infotech Ltd — DevOps, Cloud & IT",
+    "ogDescription": "Cloud services, DevOps as a Service, managed IT maintenance and outsourced support from SN Infotech Ltd."
+  },
+  "about-us": {
+    "path": "/about-us",
+    "title": "About Us | SN Infotech Ltd",
+    "description": "At SN InfoTech, we use our all-encompassing consulting, technology, management, and engineering competences to design, develop, deploy, test, and sustain business and mission-critical solutions."
+  },
+  "contact-us": {
+    "path": "/contact-us",
+    "title": "Contact Us | SN Infotech Ltd",
+    "description": "Contact SN Infotech Ltd in Hounslow, London. Call +44 7931 370076 or email info@sninfotech.co.uk for cloud and DevOps support."
+  },
+  "free-consultation": {
+    "path": "/free-consultation",
+    "title": "Free Consultation | SN Infotech Ltd",
+    "description": "Book a no-obligation consultation with SN Infotech in London. Talk to an engineer about cloud, DevOps, Kubernetes, or managed IT."
+  },
+  "services": {
+    "path": "/services",
+    "title": "IT & Cloud Services | SN Infotech Ltd",
+    "description": "Explore SN Infotech services: cloud, DevOps as a Service, managed IT maintenance, Kubernetes and outsourced IT support."
+  },
+  "cloud-solution": {
+    "path": "/cloud-solution",
+    "title": "Cloud Solution | SN Infotech Ltd",
+    "description": "Managed cloud solutions from SN Infotech — migrate, integrate and operate hybrid environments with expert coverage."
+  },
+  "devops-services": {
+    "path": "/devops-services",
+    "title": "Streamline Your Business with SN Infotech's DevOps Implementation Services in London",
+    "description": "End-to-end DevOps on AWS, Azure and GCP — managed DevOps, CI/CD, infrastructure automation and hardening from SN Infotech in London."
+  },
+  "kubernetes-services": {
+    "path": "/kubernetes-services",
+    "title": "Managed Kubernetes Service in London - Efficient Solutions by SN Infotech",
+    "description": "Managed Kubernetes in London — automated clusters, security fixes, high availability, persistent storage and full admin API access from SN Infotech."
+  },
+  "outsource-it": {
+    "path": "/outsource-it",
+    "title": "Outsource IT Support | SN Infotech Ltd",
+    "description": "Outsource IT support with SN Infotech’s remote team — 24/7 coverage for infrastructure, users and applications."
+  },
+  "website-design": {
+    "path": "/website-design",
+    "title": "Website Design | SN Infotech Ltd",
+    "description": "Website design services from SN Infotech for businesses that need a modern, conversion-focused web presence."
+  },
+  "it-recruitment": {
+    "path": "/it-recruitment",
+    "title": "IT Recruitment | SN Infotech Ltd",
+    "description": "IT recruitment for cloud, DevOps and engineering roles — hire specialists through SN Infotech Ltd."
+  },
+  "cloud-computing": {
+    "path": "/cloud-computing",
+    "title": "Cloud Computing | SN Infotech Ltd",
+    "description": "Cloud computing services including virtualisation, server maintenance, networking, security, monitoring, DR and Office 365."
+  },
+  "cloud-consulting": {
+    "path": "/cloud-consulting",
+    "title": "Cloud Consulting | SN Infotech Ltd",
+    "description": "Cloud consulting from SN Infotech: remote IT, IT support, helpdesk and Salesforce advisory."
+  },
+  "blog": {
+    "path": "/blog",
+    "title": "Blog | SN Infotech Ltd",
+    "description": "Insights from SN Infotech on DevOps, effective IT support, GDPR data privacy, intrusion detection, cloud infrastructure, and cloud security."
+  },
+  "blog/streamlining-your-development-with-devops-services-benefits": {
+    "path": "/blog/streamlining-your-development-with-devops-services-benefits",
+    "title": "Streamlining Your Development with DevOps Services Benefits | SN Infotech",
+    "description": "In today’s fast-paced digital world, businesses need to move quickly and efficiently to stay ahead. That’s where DevOps services come in."
+  },
+  "blog/key-qualities-of-effective-it-support-services": {
+    "path": "/blog/key-qualities-of-effective-it-support-services",
+    "title": "Key Qualities of Effective IT Support Services | SN Infotech",
+    "description": "The key qualities that make IT support truly effective — so operations stay smooth, downtime stays low, and growth stays possible."
+  },
+  "blog/how-gdpr-shapes-data-privacy-standards": {
+    "path": "/blog/how-gdpr-shapes-data-privacy-standards",
+    "title": "How GDPR Shapes Data Privacy Standards | SN Infotech",
+    "description": "How GDPR shapes data privacy standards and why it matters for businesses aiming to modernise their IT infrastructure."
+  },
+  "blog/understanding-intrusion-detection-in-cybersecurity": {
+    "path": "/blog/understanding-intrusion-detection-in-cybersecurity",
+    "title": "Understanding Intrusion Detection in Cybersecurity | SN Infotech",
+    "description": "What intrusion detection systems are, how they work, and why they are essential to protecting IT infrastructure."
+  },
+  "blog/cloud-infrastructure": {
+    "path": "/blog/cloud-infrastructure",
+    "title": "Cloud Infrastructure | SN Infotech",
+    "description": "Optimizing Cloud Infrastructure for Cost Savings. Discover how to optimize your cloud infrastructure to reduce costs and improve performance."
+  },
+  "blog/cloud-security": {
+    "path": "/blog/cloud-security",
+    "title": "Cloud Security: | SN Infotech",
+    "description": "Cloud Security: Protecting Your Data in the Cloud. Understand the key strategies for ensuring data security in cloud environments."
+  },
+  "privacy-policy": {
+    "path": "/privacy-policy",
+    "title": "Privacy Policy | SN Infotech Ltd",
+    "description": "Privacy policy for SN Infotech Ltd websites and services."
+  },
+  "terms": {
+    "path": "/terms",
+    "title": "Terms & Conditions | SN Infotech Ltd",
+    "description": "Terms and conditions for SN Infotech Ltd services, including trial and acceptance periods."
+  },
+  "cookie-policy": {
+    "path": "/cookie-policy",
+    "title": "Cookie Policy | SN Infotech Ltd",
+    "description": "How SN Infotech Ltd uses cookies on sninfotech.co.uk."
+  },
+  "virtualisations": {
+    "path": "/cloud-computing/virtualisations",
+    "title": "Virtualisations | SN Infotech Ltd",
+    "description": "Virtualisation services to consolidate and modernise workloads with SN Infotech."
+  },
+  "server-maintenance": {
+    "path": "/cloud-computing/server-maintenance",
+    "title": "Server Maintenance | SN Infotech Ltd",
+    "description": "Proactive server maintenance and patching from SN Infotech’s managed services team."
+  },
+  "networking-security": {
+    "path": "/cloud-computing/networking-security",
+    "title": "Networking & Security | SN Infotech Ltd",
+    "description": "Networking and security services to protect hybrid and cloud environments."
+  },
+  "networking-monitoring": {
+    "path": "/cloud-computing/networking-monitoring",
+    "title": "Networking Monitoring | SN Infotech Ltd",
+    "description": "Network monitoring and alerting so issues are caught before they impact users."
+  },
+  "disaster-recovery": {
+    "path": "/cloud-computing/disaster-recovery",
+    "title": "Disaster Recovery | SN Infotech Ltd",
+    "description": "Disaster recovery planning and implementation for resilient cloud and on-prem systems."
+  },
+  "office-365": {
+    "path": "/cloud-computing/office-365",
+    "title": "Office 365 | SN Infotech Ltd",
+    "description": "Microsoft 365 / Office 365 setup, migration and ongoing administration."
+  },
+  "remote-it": {
+    "path": "/cloud-consulting/remote-it",
+    "title": "Remote IT | SN Infotech Ltd",
+    "description": "Remote IT services that extend your internal team with SN Infotech specialists."
+  },
+  "it-support": {
+    "path": "/cloud-consulting/it-support",
+    "title": "IT Support | SN Infotech Ltd",
+    "description": "Business IT support from SN Infotech — responsive, expert, and aligned to your stack."
+  },
+  "helpdesk-support": {
+    "path": "/cloud-consulting/helpdesk-support",
+    "title": "Helpdesk Support | SN Infotech Ltd",
+    "description": "Helpdesk support that keeps end users productive while your team focuses on priorities."
+  },
+  "salesforce": {
+    "path": "/cloud-consulting/salesforce",
+    "title": "Salesforce Consulting | SN Infotech Ltd",
+    "description": "Salesforce consulting and support as part of SN Infotech’s cloud consulting practice."
+  }
+}

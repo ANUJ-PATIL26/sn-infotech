@@ -1,10 +1,15 @@
-// API Reference: https://www.wix.com/velo/reference/api-overview/introduction
-// “Hello, World!” Example: https://learn-code.wix.com/en/article/hello-world
+/**
+ * About Us — /about-us
+ * Preview: _about-us-preview.html (sn-service-page slug="about-us")
+ * SEO: src/seo/pages.json → about-us
+ */
 
 $w.onReady(function () {
-    // Write your JavaScript here
-
-    // To select an element by ID use: $w('#elementID')
-
-    // Click 'Preview' to run your code
+  if ($w('#pageTitle')) {
+    $w('#pageTitle').text = 'About Us';
+  }
+  if ($w('#pageLead')) {
+    $w('#pageLead').text =
+      'At SN InfoTech, we use our all-encompassing consulting, technology, management, and engineering competences to design, develop, deploy, test, and sustain business and mission-critical solutions to our worldwide client base.';
+  }
 });

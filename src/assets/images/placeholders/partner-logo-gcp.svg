@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" role="img" aria-label="Google Cloud">
+  <rect width="200" height="80" rx="16" fill="#121820" stroke="#f06543" stroke-opacity="0.3"/>
+  <circle cx="36" cy="40" r="14" fill="rgba(240,101,67,0.2)" stroke="#f06543" stroke-width="2"/>
+  <text x="36" y="45" text-anchor="middle" fill="#f06543" font-size="12" font-weight="700" font-family="Space Grotesk, Inter, Arial, sans-serif">G</text>
+  <text x="62" y="46" font-family="Space Grotesk, Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#E8EEF5">Google Cloud</text>
+</svg>
